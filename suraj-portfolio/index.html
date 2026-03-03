@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suraj Singh Pal | Portfolio</title>
+  <meta name="description" content="Portfolio of Suraj Singh Pal - CSE Student | Web Developer" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar" id="top">
+    <div class="container nav-inner">
+      <a class="logo" href="#home">Suraj<span>.</span></a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+  <a href="#home" class="nav-link active">Home</a>
+  <a href="#about" class="nav-link">About</a>
+  <a href="#projects" class="nav-link">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#certificates" class="nav-link">Certificates</a>
+  <a href="#contact" class="nav-link btn small">Contact</a>
+</nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-left reveal">
+          <h1>
+            Hi, I’m <span class="grad">Suraj Singh Pal</span><br />
+            I build clean, fast, responsive websites.
+          </h1>
+          <p class="pill">CSE Student • Web Developer</p>        
+          
+          <div class="hero-cta">
+            <a class="btn" href="assets/Suraj_Singh_Pal_Resume.pdf" download>
+  Download Resume
+</a>
+            <a class="btn ghost" href="#contact">Hire / Contact</a>
+          </div>
+
+          <div class="social-icons">
+  <a href="https://github.com/Suraj-Singh-Pal" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/suraj-singh-b413373a8/" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+
+  <a href="mailto:suraj.spal267@gmail.com">
+    <i class="fas fa-envelope"></i>
+  </a>
+</div>
+        </div>
+
+        <div class="hero-image">
+  <img src="./assets/images/suraj.png" alt="Suraj Singh Pal">
+</div>
+      </div>
+      <div class="bg-blur b1"></div>
+      <div class="bg-blur b2"></div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>About</h2>
+          <p>Quick introduction + what I’m focusing on.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="card reveal">
+            <h3>Who I am</h3>
+            <p>
+              I’m a Computer Science Engineering student (3rd year). I’m building a strong base in front-end development and creating real projects to add in my resume for placements.
+            </p>
+            <p class="muted">
+              Goal: Internship / Web Developer role.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <h3>Skills</h3>
+            <div class="skill-grid">
+              <div class="skill"><span>HTML</span><div class="bar"><i style="width:92%"></i></div></div>
+              <div class="skill"><span>CSS</span><div class="bar"><i style="width:85%"></i></div></div>
+              <div class="skill"><span>JavaScript</span><div class="bar"><i style="width:70%"></i></div></div>
+              <div class="skill"><span>Git & GitHub</span><div class="bar"><i style="width:65%"></i></div></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+    <p>Projects I built to show my skills (with code + live demo).</p>
+
+    <div id="github-projects" class="projects-grid">
+      <!-- GitHub projects will load here -->
+    </div>
+    
+  </div>
+</section>
+
+    <!-- Experiences -->
+    <section id="experience" class="section experience-section">
+  <div class="container">
+    <h2 class="section-title">Experience</h2>
+    <p class="section-subtitle">
+      My practical work, projects & technical growth journey.
+    </p>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Frontend Developer (Self Projects)</h3>
+          <span class="timeline-date">2024 – Present</span>
+          <p>
+            Built responsive web applications using HTML, CSS, and JavaScript.
+            Developed real-world projects including task manager apps with filtering,
+            localStorage integration, and deployment using Netlify.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Git & Deployment Practice</h3>
+          <span class="timeline-date">2024</span>
+          <p>
+            Managed repositories using Git & GitHub. 
+            Implemented version control workflows and deployed projects 
+            using Netlify and GitHub Pages.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Advanced JavaScript Learning</h3>
+          <span class="timeline-date">2025 – Ongoing</span>
+          <p>
+            Strengthening core JavaScript concepts including DOM manipulation,
+            event handling, asynchronous programming, and project architecture.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Certificates -->
+    <section class="section" id="certificates">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>Certificates</h2>
+      <p>Click “View” to preview the certificate inside the website.</p>
+    </div>
+
+    <div class="cert-grid">
+      <article class="cert-card reveal">
+        <div class="cert-top">
+          <h3>NPTEL – Management Information System</h3>
+          <span class="chip">Elite</span>
+        </div>
+        <p class="muted">IIT Kharagpur • Jul–Oct 2025 • Score: 61%</p>
+        <div class="cert-actions">
+          <button class="btn small" type="button"
+            data-cert-title="NPTEL – Management Information System"
+            data-cert-src="assets/certificates/mis-nptel.pdf"
+            onclick="openCert(this)">View</button>
+          <a class="btn small ghost" href="assets/certificates/mis-nptel.pdf" download>Download</a>
+        </div>
+      </article>
+
+      <article class="cert-card reveal">
+        <div class="cert-top">
+          <h3>NPTEL – E-Business</h3>
+          <span class="chip">Elite</span>
+        </div>
+        <p class="muted">IIT Kharagpur • Jul–Oct 2025 • Score: 53%</p>
+        <div class="cert-actions">
+          <button class="btn small" type="button"
+            data-cert-title="NPTEL – E-Business"
+            data-cert-src="assets/certificates/ebusiness-nptel.pdf"
+            onclick="openCert(this)">View</button>
+          <a class="btn small ghost" href="assets/certificates/ebusiness-nptel.pdf" download>Download</a>
+        </div>
+      </article>
+
+      <article class="cert-card reveal">
+        <div class="cert-top">
+          <h3>Infosys – JavaScript</h3>
+          <span class="chip">Course</span>
+        </div>
+        <p class="muted">Issued: Nov 21, 2025</p>
+        <div class="cert-actions">
+          <button class="btn small" type="button"
+            data-cert-title="Infosys – JavaScript"
+            data-cert-src="assets/certificates/javascript-infosys.pdf"
+            onclick="openCert(this)">View</button>
+          <a class="btn small ghost" href="assets/certificates/javascript-infosys.pdf" download>Download</a>
+        </div>
+      </article>
+
+      <article class="cert-card reveal">
+        <div class="cert-top">
+          <h3>Infosys – Bootstrap 4</h3>
+          <span class="chip">Course</span>
+        </div>
+        <p class="muted">Creating Responsive Web Pages • Issued: Nov 21, 2025</p>
+        <div class="cert-actions">
+          <button class="btn small" type="button"
+            data-cert-title="Infosys – Bootstrap 4"
+            data-cert-src="assets/certificates/bootstrap-infosys.pdf"
+            onclick="openCert(this)">View</button>
+          <a class="btn small ghost" href="assets/certificates/bootstrap-infosys.pdf" download>Download</a>
+        </div>
+      </article>
+
+      <article class="cert-card reveal">
+        <div class="cert-top">
+          <h3>Infosys – CSS3</h3>
+          <span class="chip">Course</span>
+        </div>
+        <p class="muted">Issued: Nov 21, 2025</p>
+        <div class="cert-actions">
+          <button class="btn small" type="button"
+            data-cert-title="Infosys – CSS3"
+            data-cert-src="assets/certificates/css3-infosys.pdf"
+            onclick="openCert(this)">View</button>
+          <a class="btn small ghost" href="assets/certificates/css3-infosys.pdf" download>Download</a>
+        </div>
+      </article>
+
+      <article class="cert-card reveal">
+        <div class="cert-top">
+          <h3>Infosys – HTML5 (The Language)</h3>
+          <span class="chip">Course</span>
+        </div>
+        <p class="muted">Issued: Nov 21, 2025</p>
+        <div class="cert-actions">
+          <button class="btn small" type="button"
+            data-cert-title="Infosys – HTML5 (The Language)"
+            data-cert-src="assets/certificates/html5-infosys.pdf"
+            onclick="openCert(this)">View</button>
+          <a class="btn small ghost" href="assets/certificates/html5-infosys.pdf" download>Download</a>
+        </div>
+      </article>
+      <!-- NEW: Coding Bootcamp -->
+<article class="cert-card reveal">
+  <div class="cert-top">
+    <h3>Code Calculus – Coding Bootcamp</h3>
+    <span class="chip">Bootcamp</span>
+  </div>
+  <p class="muted">Completed: Coding Bootcamp (Logic + Fundamentals)</p>
+  <div class="cert-actions">
+    <button class="btn small" type="button"
+      data-cert-title="Code Calculus – Coding Bootcamp"
+      data-cert-src="assets/certificates/bootcamp.pdf"
+      onclick="openCert(this)">View</button>
+    <a class="btn small ghost" href="assets/certificates/bootcamp.pdf" download>Download</a>
+  </div>
+</article>
+
+<!-- NEW: JOVAC DevOps -->
+<article class="cert-card reveal">
+  <div class="cert-top">
+    <h3>JOVAC – DevOps (GLA University)</h3>
+    <span class="chip">Training</span>
+  </div>
+  <p class="muted">10 Jun – 31 Jul 2025 • Issued: 31 Jul 2025 • Cert: TG/2025/JOVAC/098</p>
+  <div class="cert-actions">
+    <button class="btn small" type="button"
+      data-cert-title="JOVAC – DevOps (GLA University)"
+      data-cert-src="assets/certificates/jovac-devops.pdf"
+      onclick="openCert(this)">View</button>
+    <a class="btn small ghost" href="assets/certificates/jovac-devops.pdf" download>Download</a>
+  </div>
+</article>
+
+<!-- NEW: NIPAM -->
+<article class="cert-card reveal">
+  <div class="cert-top">
+    <h3>NIPAM – National IP Awareness Mission</h3>
+    <span class="chip">Govt.</span>
+  </div>
+  <p class="muted">IP Awareness/Training • 12 Apr 2022 • Date: 01 May 2022</p>
+  <div class="cert-actions">
+    <button class="btn small" type="button"
+      data-cert-title="NIPAM – National IP Awareness Mission"
+      data-cert-src="assets/certificates/nipam.pdf"
+      onclick="openCert(this)">View</button>
+    <a class="btn small ghost" href="assets/certificates/nipam.pdf" download>Download</a>
+  </div>
+</article>
+    </div>
+  </div>
+
+  <!-- Certificate Modal -->
+  <div class="modal" id="certModal" aria-hidden="true">
+    <div class="modal-backdrop" onclick="closeCert()"></div>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="certTitle">
+      <div class="modal-head">
+        <h3 id="certTitle">Certificate</h3>
+        <button class="icon-btn" type="button" onclick="closeCert()" aria-label="Close">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <iframe id="certFrame" title="Certificate Preview" loading="lazy"></iframe>
+      </div>
+
+      <div class="modal-foot">
+        <a class="btn small ghost" id="certDownload" download>Download</a>
+        <button class="btn small" type="button" onclick="closeCert()">Done</button>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Contact</h2>
+          <p>Let’s connect for internships and opportunities.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="contact-list">
+  <a class="contact-item" href="tel:+918398868740">
+    <span class="icon">📞</span>
+    <span>+91 8398868740</span>
+  </a>
+
+  <a class="contact-item" href="mailto:suraj.spal267@gmail.com">
+    <span class="icon">✉️</span>
+    <span>suraj.spal267@gmail.com</span>
+  </a>
+
+  <a class="contact-item" href="https://www.linkedin.com/in/suraj-singh-b413373a8/" target="_blank" rel="noreferrer">
+    <span class="icon">🔗</span>
+    <span>LinkedIn</span>
+  </a>
+
+  <a class="contact-item" href="https://github.com/Suraj-Singh-Pal" target="_blank" rel="noreferrer">
+    <span class="icon">💻</span>
+    <span>GitHub</span>
+  </a>
+
+  <a class="contact-item" href="https://www.instagram.com/suraj.up_9111/?hl=en" target="_blank" rel="noreferrer">
+    <span class="icon">📷</span>
+    <span>Instagram</span>
+  </a>
+</div>
+
+          <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <!-- required for Netlify -->
+  <input type="hidden" name="form-name" value="contact" />
+  <!-- spam protection -->
+  <p class="hidden">
+    <label>Don’t fill this out: <input name="bot-field" /></label>
+  </p>
+
+  <label class="field">
+    <span>Your Name</span>
+    <input type="text" name="name" placeholder="Enter your name" required />
+  </label>
+
+  <label class="field">
+    <span>Your Email</span>
+    <input type="email" name="email" placeholder="Enter your email" required />
+  </label>
+
+  <label class="field">
+    <span>Message</span>
+    <textarea name="message" rows="6" placeholder="Write your message..." required></textarea>
+  </label>
+
+  <button class="btn" type="submit">Send Message</button>
+
+  <p class="form-note" id="formNote"></p>
+</form>
+        </div>
+
+        <footer class="footer">
+          <p>© <span id="year"></span> Suraj Singh Pal • Built with HTML, CSS & JavaScript</p>
+          <a class="to-top" href="#top">↑ Back to top</a>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
