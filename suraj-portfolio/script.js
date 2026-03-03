@@ -201,7 +201,10 @@ if (form) {
 
     try {
       const formData = new FormData(form);
-      const res = await fetch("/", { method: "POST", body: formData });
+      const res = await fetch(window.location.pathname, {
+  method: "POST",
+  body: formData,
+});
 
       if (res.ok) {
         form.reset();
